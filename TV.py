@@ -8,5 +8,7 @@ class TV:
         self.on = False
     def turn_on(self):
         self.on = True
+    def get_channel(self):
+        return self.channel
     def set_channel(self,channel):
         self.channel = channel
