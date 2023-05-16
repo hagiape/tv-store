@@ -12,3 +12,7 @@ class TV:
         return self.channel
     def set_channel(self,channel):
         self.channel = channel
+    def get_volume(self):
+        return self.volume_level
+    def set_volume(self, volume_level):
+        self.volume_level = volume_level
