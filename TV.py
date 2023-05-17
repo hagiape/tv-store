@@ -26,8 +26,8 @@ class TV:
     def volume_down(self):
         self.channel-=1
     def display(self):
-        print(self.name + "'s channel is" + self.channel + 'and volume level is ' + str(self.volume_level))
+        print(self.name + "'s channel is " + str(self.channel) + ' and volume level is ' + str(self.volume_level))
         if self.brand == 'Brand X':
-            print('\nIt is a generic brand of TV.')
+            print('It is a generic brand of TV.\n')
         else:
-            print('\nIt is a ' + self.brand + ' TV.')
+            print('It is a ' + self.brand + ' TV.\n')
