@@ -28,6 +28,10 @@ class TV:
     def display(self):
         print(self.name + "'s channel is " + str(self.channel) + ' and volume level is ' + str(self.volume_level))
         if self.brand == 'Brand X':
-            print('It is a generic brand of TV.\n')
+            print('It is a generic brand of TV.')
         else:
-            print('It is a ' + self.brand + ' TV.\n')
+            print('It is a ' + self.brand + ' TV.')
+        if self.on == True:
+            print('The TV is currently on.')
+        else:
+            print('The TV is currently off.')
