@@ -36,13 +36,25 @@ class TV:
         else:
             self.volume_level = volume_level
     def channel_up(self):
-        self.channel += 1
+        if self.channel > 120 or self.channel < 1:
+            self.channel_limit()
+        else:
+            self.channel += 1
     def channel_down(self):
-        self.channel -= 1
+        if self.channel > 120 or self.channel < 1:
+            self.channel_limit()
+        else:
+            self.channel -= 1
     def volume_up(self):
-        self.channel += 1
+        if self.volume > 120 or self.volume < 1:
+            self.volume_level_limit()
+        else:
+            self.channel += 1
     def volume_down(self):
-        self.channel -=1 
+        if self.volume > 120 or self.volume < 1:
+            self.volume_level_limit()
+        else:
+            self.channel -=1 
     def display(self):
         print(self.name + "'s channel is " + str(self.channel) + ' and volume level is ' + str(self.volume_level))
         if self.brand == 'Brand X':
