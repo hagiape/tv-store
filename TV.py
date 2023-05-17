@@ -11,6 +11,12 @@ class TV:
         if channel > 120 or channel < 1:
             print('You can only pick between channels 1 to 120.')
             self.channel = 20
+    def volume_level_limit(self):
+        print('You can only pick between level 1 to 7 of volume level.')
+        self.volume_level = 3
+    def channel_limit(self):
+        print('You can only pick between channels 1 to 120.')
+        self.displaychannel = 20
     def turn_off(self):
         self.on = False
     def turn_on(self):
