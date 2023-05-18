@@ -56,6 +56,6 @@ class TV:
         else:
             print('It is a ' + self.brand + ' TV.')
         if self.on == True:
-            print('The TV is currently on.')
+            print('The TV is currently on.\n')
         else:
-            print('The TV is currently off.')
+            print('The TV is currently off.\n')
