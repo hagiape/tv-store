@@ -14,14 +14,14 @@ class TV:
     def turn_on(self):
         self.on = True
     def get_channel(self):
-        print(self.channel)
+        print('Channel: ' + self.channel)
     def set_channel(self, channel):
         if channel > 120 or channel < 1:
             print('You can only pick between channels 1 to 120.')
         else:
             self.channel = channel
     def get_volume(self):
-        print(self.volume_level)
+        print('Volume level: ' + self.volume_level)
     def set_volume(self, volume_level):
         if volume_level > 7 or volume_level < 1:
             print('You can only pick between level 1 to 7 of volume level.')
