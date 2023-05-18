@@ -1,5 +1,5 @@
 class TV:
-    def __init__(self, name='TV', channel=20, volume_level=3, on=False, brand='Brand X'):
+    def __init__(self, name='TV', channel=20, volume_level=3, on=True, brand='Brand X'):
         self.name = name
         self.channel = channel
         self.volume_level = volume_level
