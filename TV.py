@@ -38,15 +38,15 @@ class TV:
         else:
             self.channel -= 1
     def volume_up(self):
-        if self.volume == 7:
+        if self.volume_level == 7:
             print('You have reached the limit of volume levels')
-            self.volume = 7
+            self.volume_level = 7
         else:
             self.channel += 1
     def volume_down(self):
-        if self.volume == 1:
+        if self.volume_level == 1:
             print('You have reached the limit of volume levels')
-            self.volume = 1
+            self.volume_level = 1
         else:
             self.channel -=1 
     def display(self):
