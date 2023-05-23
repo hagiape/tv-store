@@ -2,7 +2,7 @@
 
 Python modules that create TV objects and modifies its properties based on the user input.
 
-![](tv_store.gif)
+![](demo.gif)
 
 ### 📂 Download
 
